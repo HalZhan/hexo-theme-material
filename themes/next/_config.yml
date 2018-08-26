@@ -524,7 +524,7 @@ gitment:
   cleanly: true # Hide 'Powered by ...' on footer, and more
   language: # Force language, or auto switch by theme
   github_user: halzhan # MUST HAVE, Your Github Username
-  github_repo: https://github.com/HalZhan/comcat.git # MUST HAVE, The name of the repo you use to store Gitment comments
+  github_repo: comcat # MUST HAVE, The name of the repo you use to store Gitment comments
   client_id: 1b7fd72552ecfc8c7068 # MUST HAVE, Github client id for the Gitment
   client_secret: dfc3dbead4732d9482cc36b7362a566cbc04c712 # EITHER this or proxy_gateway, Github access secret token for the Gitment
   proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
