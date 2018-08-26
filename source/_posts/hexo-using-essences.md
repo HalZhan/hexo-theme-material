@@ -16,6 +16,7 @@ categories:
 - `fork`完成后，绑定`next`项目为子项目：
 ```bash
 git remote add -f next git@github.com:HalZhan/hexo-theme-next.git
+git subtree add --prefix=themes/next next master --squash
 ```
 - 更新子项目：
 ```bash
