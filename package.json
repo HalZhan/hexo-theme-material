@@ -6,9 +6,9 @@
     "version": "3.7.1"
   },
   "scripts": {
-    "writing": "hexo g -w -d",
+    "writing": "hexo g -w",
     "serve": "hexo server -p 4000 --debug",
-    "pub": " hexo deploy"
+    "pub": "hexo clean && hexo deploy"
   },
   "dependencies": {
     "hexo": "^3.7.0",
